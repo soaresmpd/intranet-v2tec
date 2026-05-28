@@ -26,7 +26,9 @@
     "release-major-alpha": "release-it major --preRelease=alpha",
     "release-alpha": "release-it --preRelease=alpha"
   },
-  "addons": [    "@eeacms/volto-accordion-block",
+  "theme": "@kitconcept/volto-light-theme",
+  "addons": [
+    "@eeacms/volto-accordion-block",
     "@kitconcept/volto-button-block",
     "@kitconcept/volto-highlight-block",
     "@kitconcept/volto-heading-block",
@@ -40,9 +42,10 @@
     "@plonegovbr/volto-social-media",
     "@kitconcept/volto-bm3-compat",
     "@plone-collective/volto-image-editor",
-    "@kitconcept/volto-light-theme"],
-  "theme": "",
-  "dependencies": {"@eeacms/volto-accordion-block": "^10.4.6",
+    "@kitconcept/volto-light-theme"
+  ],
+  "dependencies": {
+    "@eeacms/volto-accordion-block": "^10.4.6",
     "@kitconcept/volto-banner-block": "^1.1.0",
     "@kitconcept/volto-bm3-compat": "^1.0.0-alpha.1",
     "@kitconcept/volto-button-block": "^5.0.0-alpha.0",
@@ -58,13 +61,7 @@
     "@plone-collective/volto-image-editor": "1.0.1",
     "@plone/components": "workspace:*",
     "@plonegovbr/volto-code-block": "3.0.0",
-    "@plonegovbr/volto-social-media": "^3.0.0-alpha.0"},
-  "peerDependencies": {
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "classnames": "2.5.1",
-    "@plone/registry": "workspace:*",
-    "@plone/types": "workspace:*"
+    "@plonegovbr/volto-social-media": "^3.0.0-alpha.0"
   },
   "devDependencies": {
     "@plone/registry": "workspace:*",
