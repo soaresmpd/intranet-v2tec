@@ -1,0 +1,22 @@
+{
+    "python_package_name": "v2tec.intranet",
+    "frontend_addon_name": "volto-v2tec-intranet",
+    "devops_cache": false,
+    "project_slug": "intranet-v2tec",
+    "description": "Intranet utilizando Plone 6.2",
+    "author": "Leslier Soares",
+    "devops_storage": "relstorage",
+    "title": "Intranet V2Tec",
+    "hostname": "intranet.v2solucoes.com.br",
+    "plone_version": "6.2.0",
+    "container_registry": "github",
+    "github_organization": "soaresmpd",
+    "devops_ansible": false,
+    "volto_version": "19.1.0",
+    "use_prerelease_versions": false,
+    "email": "soares@v2solucoes.com.br",
+    "initialize_documentation": false,
+    "language_code": "pt-br",
+    "devops_gha_deploy": false,
+    "__template__": "project"
+}
