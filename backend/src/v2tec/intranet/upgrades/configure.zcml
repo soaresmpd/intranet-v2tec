@@ -3,19 +3,20 @@
     xmlns:genericsetup="http://namespaces.zope.org/genericsetup"
     >
 
-  <!-- Example upgrade step
   <genericsetup:upgradeSteps
       profile="v2tec.intranet:default"
       source="1000"
-      destination="20260527001"
+      destination="20260528001"
       >
     <genericsetup:upgradeDepends
-        title="Altera timezone para America/Sao_Paulo"
-        import_steps="plone.app.registry"
+        title="Fecha a intranet"
+        import_steps="workflow"
+        />
+    <upgradeStep
+        title="Atualiza o permissionamento com o novo workflow"
+        handler=".workflow.atualiza_permissoes"
         />
   </genericsetup:upgradeSteps>
-  -->
-
   <!-- -*- extra stuff goes here -*- -->
 
 </configure>
